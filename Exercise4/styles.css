@@ -1,0 +1,27 @@
+body
+{
+  font-size: 16pt;
+}
+
+p.quote
+{
+  background-color: gold;
+  padding: 10%;
+  margin: 25px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: blue;
+  font-size: 26pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+label
+{
+  margin-left: 20px;
+}
+
+button
+{
+  font-size: 14pt;
+}

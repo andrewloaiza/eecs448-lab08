@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Slideshow</title>
+  </head>
+
+  <style media="screen">
+    body {text-align: center;}
+    input {font-size: 20px;}
+  </style>
+
+  <body>
+    <h1>My Slideshow!</h1>
+
+    <img src="images/fireworks.jpeg" id="slide" height="600px" width="800px"
+    onclick="slideShow(1)"><br>
+
+    <input type="button" id="prev" value="Previous" onclick="slideShow(-1)">
+    <input type="button" id="next" value="Next" onclick="slideShow(1)">
+
+    <script type="text/javascript">
+      let index = 0;
+      let imgArr = ["images/fireworks.jpeg",
+                    "images/lanterns.jpeg",
+                    "images/rockchalk.jpeg",
+                    "images/sunset.jpeg",
+                    "images/tacoma.jpeg"];
+
+      function slideShow(next)
+      {
+        index += next;
+        if (index < 0) index = 4;
+        index %= 5;
+        document.getElementById("slide").src = imgArr[index];
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,52 @@
+body
+{
+  background-image: url("space.jpeg");
+  text-align: center;
+  color: white;
+}
+
+h1
+{
+  background-color: pink;
+  color: black;
+  font-size: 48pt;
+  font-family: arial;
+}
+
+p
+{
+  font-size: 36pt;
+}
+
+p.pinkify
+{
+  color: pink;
+}
+
+p.bio
+{
+  font-size: 24pt;
+  padding: 0 20%;
+}
+
+img
+{
+  width: 50%;
+}
+
+ul
+{
+  font-size: 24pt;
+  padding: 0 20%;
+  text-align: left;
+}
+
+a
+{
+  color: white;
+}
+
+a:hover
+{
+  font-size: 36pt;
+}

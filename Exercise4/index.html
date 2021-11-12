@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Coloring</title>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <p class="quote" id="para">
+      I have a dream that my four little children will one day live in a nation
+      where they will not be judged by the color of their skin but by the content
+      of their character. I have a dream today.
+    </p>
+
+    <p><b>
+      rgb range 0-255, width = non-negative integer
+    </b></p>
+
+    <form>
+      <b>Border</b> <br>
+      <label for="rBorder">Red value: </label>
+      <input type="text" id="rBorder" value=""> <br>
+      <label for="gBorder">Green value: </label>
+      <input type="text" id="gBorder" value=""> <br>
+      <label for="bBorder">Blue value: </label>
+      <input type="text" id="bBorder" value=""> <br>
+      <label for="borderW">Width: </label>
+      <input type="text" id="borderW" value=""> <br>
+
+      <br><br>
+
+      <b>Background</b> <br>
+      <label for="rBack">Red value: </label>
+      <input type="text" id="rBack" value=""> <br>
+      <label for="gBack">Green value: </label>
+      <input type="text" id="gBack" value=""> <br>
+      <label for="bBack">Blue value: </label>
+      <input type="text" id="bBack" value=""> <br>
+
+      <br><br>
+
+      <button type="button" id="submitButton" onclick="colorChange()"
+      >Apply Changes</button>
+    </form>
+
+    <script type="text/javascript" src="colorEditor.js"></script>
+
+  </body>
+</html>
