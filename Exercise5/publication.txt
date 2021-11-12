@@ -1,0 +1,6 @@
+Publication
+
+EECS: 	https://people.eecs.ku.edu/~a358l152/EECS_448_Public/Lab_08/index.html
+
+GitHub: 	https://github.com/andrewloaiza/eecs448-lab08.git
+
